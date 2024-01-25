@@ -1,0 +1,138 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 100px 373px;
+    justify-content: center;
+    background: #FFF;
+    gap: 60px;
+}
+
+.border {
+    border: 5px solid #000;
+}
+
+.features_content {
+    margin: 25px;
+}
+
+.fea_h1_title {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 25px 0 18px;
+}
+
+.fea_p_title {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0 0 25px;
+}
+
+.fea_button {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 100px 373px;
+    justify-content: center;
+    background: #FFF;
+    gap: 20px;
+}
+
+.secation_title {
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 0 0 24px;
+}
+
+.section_sub_title {
+    color: #888;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    line-height: 120%;
+    margin: 0 285px 38px;
+}
+
+
+.service_info_main{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.service {
+    border: 5px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 34px 34px;
+}
+
+.service_title {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 32px 0 16px;
+}
+
+.service_sub_title {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0 40px 24px;
+}
+
+.service_button {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    border-radius: 56px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.service_img{
+    width: 100%;
+}
